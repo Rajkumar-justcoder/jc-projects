@@ -29,7 +29,7 @@ function main() {
               </div>
               <div className='btn-div'>
 
-                <div className='btn-main d-flex flex-column justify-content-center align-items-center'><a href='#'>Back to homepage</a></div>
+                <div className='btn-main d-flex flex-column justify-content-center align-items-center'><a href='/'>Back to homepage</a></div>
 
               </div>
             </div>
