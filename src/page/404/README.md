@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Rajkumar-justcoder/devchallanges.io/tree/main/src/components/404">
+    <a href="https://github.com/Rajkumar-justcoder/devchallanges.io/tree/main/src/page/404">
       Solution
     </a>
     <span> | </span>

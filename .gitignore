@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+*src/page/tic-tac-toe
+*src/page/Text Analyzer
