@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import f404ss from './page/404/Screenshot_2022-03-13_17-33-26.png';
-import textana from './ss1.png';
+import jta from './assets/jta.png';
+import notebear from './assets/notebear.png';
+
 import './Card.css';
 
 function Mainpage() {
@@ -27,12 +29,22 @@ function Mainpage() {
                                     <div className="sesscardstext">My Team Page</div>
                                 </Link>
                             </div> */}
+
                             <div className="cardscolums">
                                 <a className="sess_card" href='https://just-text-analyzer.vercel.app/'>
                                     <div className="sesscardsimg">
-                                        <img className="sess_img" src={textana} />
+                                        <img className="sess_img" src={jta} />
                                     </div>
-                                    <div className="sesscardstext">Text Analyzer</div>
+                                    <div className="sesscardstext">Just Text Analyzer</div>
+                                </a>
+                            </div>
+
+                            <div className="cardscolums">
+                                <a className="sess_card" href='https://notebear.vercel.app/'>
+                                    <div className="sesscardsimg">
+                                        <img className="sess_img" src={notebear} />
+                                    </div>
+                                    <div className="sesscardstext">NoteBear</div>
                                 </a>
                             </div>
 
