@@ -1,11 +1,8 @@
-
-
-a{
+a {
     text-decoration: none;
 }
 
-.card_div{
-    top: 6%;
+.card_div {
     text-align: center;
     display: flex;
     background: transparent;
@@ -13,18 +10,16 @@ a{
     height: auto;
     clear: both;
     justify-content: center;
-    
-    
 }
 
 .cardsection {
     width: 100%;
     padding: 0% 0px;
-} 
+}
 
 .cardscolums {
     float: left;
-    box-shadow: 0px 0px 5px 2px rgb(42,98,46);
+    box-shadow: 0px 0px 5px 2px rgb(42, 98, 46);
     padding: 0 10px;
     display: flex;
     width: auto;
@@ -36,11 +31,11 @@ a{
     /* background-color: black; */
     position: relative;
     z-index: 10000;
-    
+
 }
 
-.cardscolums:hover{
-    
+.cardscolums:hover {
+
     box-shadow: 0px 0px 4px 3px #414141;
     transform: scale(1.06);
 }
@@ -63,15 +58,13 @@ a{
     background-color: transparent;
 }
 
-.sesscardsimg{
+.sesscardsimg {
     display: flex;
     width: auto !important;
-    
+
 }
+
 .sess_img {
-    
-    padding-top: 21px;
-    margin: 0%;
     display: flex;
     margin: 0px;
     padding: 0% 0% 0% 0%;
@@ -88,7 +81,7 @@ a{
     padding-bottom: 90px;
 } */
 
-.sesscardstext{
+.sesscardstext {
     font-family: "Poppins", sans-serif;
     color: rgb(153, 153, 153);
     font-size: 20px;
@@ -99,16 +92,13 @@ a{
 /* Responsive cardscolumss */
 @media screen and (max-width: 867px) {
     .cardscolums {
-        
         display: flex;
-        
         flex-flow: row wrap;
-        
         align-content: center;
         justify-content: center;
     }
-    
-    .cardsection{
+
+    .cardsection {
         padding: 0% 0%;
     }
 }
@@ -116,29 +106,24 @@ a{
 
 @media screen and (max-width: 600px) {
     .cardscolums {
-        
         display: flex;
-        
         flex-flow: row wrap;
         align-content: center;
         justify-content: center;
-        
     }
 }
 
 @media screen and (max-width: 600px) {
     .cardscolums {
-        
         display: flex;
-        
         flex-flow: row wrap;
-        
         align-content: center;
         justify-content: center;
         margin-bottom: 11px;
-        
+
     }
-    .card_div{
+
+    .card_div {
         height: 246vh;
     }
 }
