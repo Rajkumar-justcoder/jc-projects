@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import f404ss from '../page/404/Screenshot_2022-03-13_17-33-26.png';
 import jta from '../assets/jta.png';
 import notebear from '../assets/notebear.png';
-
+import loginss from '../assets/loginss.png';
 import './Card.css';
 
 function Mainpage() {
@@ -42,7 +42,7 @@ function Mainpage() {
                             <div className="cardscolums">
                                 <Link to='/login' className="sess_card">
                                     <div className="sesscardsimg">
-                                        {/* <img className="sess_img" alt='loginpng' src={login} /> */}
+                                        <img className="sess_img" alt='loginpng' src={loginss} />
                                     </div>
                                     <div className="sesscardstext">Login Page</div>
                                 </Link>
