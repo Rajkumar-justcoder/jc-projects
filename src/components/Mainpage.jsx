@@ -9,7 +9,7 @@ import './Card.css';
 function Mainpage() {
     return (
         <>
-            <div className="main-container w-full h-screen">
+            <div className="main-container w-full h-dvh">
                 <div id="cardsmain" className="card_div">
                     <section className="cardsection">
                         <div className="cardrows" pagename="work-page">
